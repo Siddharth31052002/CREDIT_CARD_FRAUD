@@ -1,5 +1,6 @@
 # CREDIT_CARD_FRAUD
 Detecting the fradulent customers.
+LOADING DATA FROM EXTERNAL SOURCE (BRONZE)--> (STAGING AREA) ADLS --> AZURE SYNAPSE ANALYTICS (ACCOUNT) --> AZURE SYNAPSE STUDIO (DATA CLEANING,EDA) --> (SILVER LAYER) ADLS (CLEANED DATA) --> JOINING DATASETS AND GETTING THEM IN ONE PARQUET FILE --> NOW USED THIS PARQUET FILE AND DID DATA OPTIMIZATION FOR BETTER QUERYING OF DATA AND MADE DIFFERENT FOLDERS INSIDE GOLD LAYERS --> USING PARQUET FILE FOR MACHINE LEARNING ALGORTIHMS -->  --> 
 
 DATASETS LINK 
 
@@ -7,25 +8,27 @@ https://drive.google.com/file/d/1pGtZoxBbDp6RsniyPmNZdJh0HH43mi0L/view?usp=drive
 
 DAY 1 - DATASET COLLECTION FROM DIFFERENT SOURCES
  
-Loading csv/tsv adls, blob, azure sql database 
+Loading different datasets such as csv/tsv into ADLS 
  
-Basic knowledge about our three datasets 
+Basic knowledge about our three datasets.
  
 DAY 2 - CLEANSING/SCRUBBING
  
-missing
+Handling missing values
  
-replacing nulls
+Replacing null values with unknowns 
  
-removing duplicates
+Removing duplicates
  
-Outliers
+Removing Outliers
  
-type casting
+Type casting of specific columns
  
-date format conversion
+Date Format conversion
  
-renaming with better names 
+Renaming columns with better names
+
+Data Validation
  
  
 DAY 3 - OPTIMIZING THE STORED DATA
@@ -41,12 +44,14 @@ CACHE/PERSIST
 REPARTITIONING/COALESCE
 
 USE AZURE KEY VAULT
+
  
 DAY 4 - BUSINESS QUERIES
  
 QUERYING BASED ON REQUIREMENTS
 
 MAKING DASHBOARD IN POWERBI
+
 
 
 **DOCUMENTATION IS IMPORTANT 
