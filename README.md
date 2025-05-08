@@ -2,7 +2,8 @@
 Detecting the fradulent customers.
 
 DATASETS LINK 
-https://drive.google.com/file/d/1iycHwQzhKA2nOBIXH2WKEd3RyAhcxCE5/view?usp=sharing
+
+https://drive.google.com/file/d/1pGtZoxBbDp6RsniyPmNZdJh0HH43mi0L/view?usp=drive_link
 
 DAY 1 - DATASET COLLECTION FROM DIFFERENT SOURCES
  
